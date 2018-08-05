@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.4.2'
+ruby '2.5.1'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -7,14 +7,14 @@ git_source(:github) do |repo_name|
 end
 
 # Server
-gem 'puma', '~> 3.10.0'
+gem 'puma', '~> 3.12.0'
 
 # Rails
-gem 'rails', '~> 5.1.4'
+gem 'rails', '~> 5.1.6'
 
 # Pipeline
 gem 'sprockets-rails', '3.2.1', require: 'sprockets/railtie'
-gem 'sprockets', '3.7.1'
+gem 'sprockets', '3.7.2'
 gem 'uglifier', '~> 3.2.0'
 
 # View
@@ -24,25 +24,25 @@ gem 'haml', '~> 5.0'
 gem 'sass-rails', '~> 5.0'
 
 # Cortex
-gem 'cortex', github: 'cbdr/cortex'
-gem 'cortex-plugins-core', '~> 3.0'
+gem 'cortex', github: 'cortex-cms/cortex'
+gem 'cortex-plugins-core', '~> 3.1'
 
 # Jobs
-gem 'sidekiq', '~> 5.0.5'
+gem 'sidekiq', '~> 5.1.3'
 gem 'sidekiq-failures', '~> 1.0.0'
-gem 'sinatra', '~> 2.0.0'
+gem 'sinatra', '~> 2.0.3'
 
 # Data
-gem 'pg', '~> 0.21.0'
+gem 'pg', '>= 0.18', '< 2.0'
 gem 'redis-rails', '~> 5.0'
 
 # JavaScript
 gem 'react_on_rails', '9.0.3'
 gem 'mini_racer'
-gem 'webpacker'
+gem 'webpacker', '3.2.2'
 
 # API
-gem 'apollo-tracing', '~> 1.3.0'
+gem 'apollo-tracing', '~> 1.6.0'
 
 group :development, :test do
   # Environment
@@ -104,7 +104,7 @@ group :test do
   gem 'jasmine-core', '~> 2.8'
 
   # Data
-  gem 'elasticsearch-extensions', '~> 0.0.26'
+  gem 'elasticsearch-extensions', '~> 0.0.29'
 end
 
 group :staging, :production do
