@@ -24,7 +24,7 @@ gem 'haml', '~> 5.0'
 gem 'sass-rails', '~> 5.0'
 
 # Cortex
-gem 'cortex', github: 'cortex-cms/cortex'
+gem 'cortex', '~> 0.1'
 gem 'cortex-plugins-core', '~> 3.1'
 
 # Jobs
