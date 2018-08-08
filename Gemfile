@@ -113,7 +113,7 @@ group :staging, :production do
   gem 'sentry-raven'
 
   # Performance
-  gem 'bootscale', require: false
+  gem 'bootsnap', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
