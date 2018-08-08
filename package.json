@@ -13,8 +13,8 @@
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
 
-    "cortex": "/home/atharp/repos/cortex",
-    "cortex-plugins-core": "/home/atharp/repos/cortex-plugins-core"
+    "cortex-cms": "0.1.2",
+    "cortex-plugins-core": "2.0.1"
   },
   "devDependencies": {
     "webpack-dev-server": "2.9.7",

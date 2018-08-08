@@ -1,9 +1,13 @@
-# Cortex Starter App [![Build Status](https://semaphoreci.com/api/v1/employer-site-content-products/cortex-starter/branches/master/shields_badge.svg)](https://semaphoreci.com/employer-site-content-products/cortex-starter) [![Maintainability](https://api.codeclimate.com/v1/badges/25153126e5743c9cd51d/maintainability)](https://codeclimate.com/github/cortex-cms/cortex-starter/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/25153126e5743c9cd51d/test_coverage)](https://codeclimate.com/github/cortex-cms/cortex-starter/test_coverage) [![Documentation Status](https://www.gitbook.com/button/status/book/cortex-cms/cortex-cms)](https://docs.cortexcms.org/)
+# Cortex CMS Starter App [![Build Status](https://semaphoreci.com/api/v1/employer-site-content-products/cortex-starter/branches/master/shields_badge.svg)](https://semaphoreci.com/employer-site-content-products/cortex-starter) [![Maintainability](https://api.codeclimate.com/v1/badges/25153126e5743c9cd51d/maintainability)](https://codeclimate.com/github/cortex-cms/cortex-starter/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/25153126e5743c9cd51d/test_coverage)](https://codeclimate.com/github/cortex-cms/cortex-starter/test_coverage)
 <img align="right" height="150"
      src="https://hiring-assets.careerbuilder.com/branding/cortex-logo.svg"
      alt="Cortex CMS Logo">
 
-This project acts as a starter/demo/template Rails application that pulls in [Cortex CMS Engine](https://github.com/cbdr/cortex/) and makes it available for use. Full documentation coming soon.
+This project acts as a starter/demo/template Rails application that pulls in and mounts [Cortex CMS Engine](https://github.com/cortex-cms/cortex/) and makes it available for use and consumption.
+
+## Documentation
+
+Cortex CMS features a comprehensive [documentation portal](https://docs.cortexcms.org). To get started with `cortex-starter`, refer to the [manual setup guide](https://docs.cortexcms.org/basics/setup/manual-setup).
 
 ## Contributing
 
@@ -17,6 +21,4 @@ Cortex utilizes the Apache 2.0 License. See [LICENSE](LICENSE.md) for details.
 
 ## Copyright
 
-Copyright (c) 2018 CareerBuilder, LLC.
-
-[cb-ce-github]: https://github.com/cb-talent-development "Content Enablement on GitHub"
+Copyright (c) CareerBuilder, LLC.
