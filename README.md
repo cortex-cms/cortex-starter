@@ -7,7 +7,7 @@ This project acts as a starter/demo/template Rails application that pulls in and
 
 ## Documentation
 
-Cortex CMS features a comprehensive [documentation portal](https://docs.cortexcms.org). To get started with `cortex-starter`, refer to the [manual setup guide](https://docs.cortexcms.org/basics/setup/manual-setup).
+Cortex CMS features a comprehensive [documentation portal](https://docs.cortexcms.org). To get started with `cortex-starter`, please refer to either the [Docker Compose guide](https://docs.cortexcms.org/basics/setup/docker-compose) \(recommended\) or the [manual setup guide](https://docs.cortexcms.org/basics/setup/manual-setup).
 
 ## Contributing
 
