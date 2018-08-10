@@ -17,6 +17,7 @@ jobs:
       DATABASE_USERNAME: root
       DATABASE_HOST: localhost
       DATABASE_PORT: 5432
+      CC_TEST_REPORTER_ID: d51bea69a31c072d33ae2a74be689f925c9e6f61496e3eebd71d003cecc266d3
 
     docker:
     # specify the version you desire here
@@ -82,18 +83,25 @@ jobs:
     # Database setup
     - run: bin/setup
 
-    # run tests!
+    - run:
+        name: Setup Code Climate test-reporter
+        command: |
+          curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+          chmod +x ./cc-test-reporter
+
     - run:
         name: run tests
         command: |
           mkdir /tmp/test-results
           TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)"
 
+          ./cc-test-reporter before-build
           bin/rspec --format progress \
                           --format RspecJunitFormatter \
                           --out /tmp/test-results/rspec.xml \
                           --format progress \
                           $TEST_FILES
+          ./cc-test-reporter after-build --exit-code $?
 
     # collect reports
     - store_test_results:
