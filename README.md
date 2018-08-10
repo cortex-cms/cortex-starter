@@ -1,4 +1,4 @@
-# Cortex CMS Starter App [![CircleCI](https://circleci.com/gh/cortex-cms/cortex-starter.svg?style=svg)](https://circleci.com/gh/cortex-cms/cortex-starter) [![Maintainability](https://api.codeclimate.com/v1/badges/25153126e5743c9cd51d/maintainability)](https://codeclimate.com/github/cortex-cms/cortex-starter/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/25153126e5743c9cd51d/test_coverage)](https://codeclimate.com/github/cortex-cms/cortex-starter/test_coverage)
+# Cortex CMS Starter App [![CircleCI](https://circleci.com/gh/cortex-cms/cortex-starter.svg?style=svg)](https://circleci.com/gh/cortex-cms/cortex-starter) [![Maintainability](https://api.codeclimate.com/v1/badges/3d1a7f037b3d31446b83/maintainability)](https://codeclimate.com/github/cortex-cms/cortex-starter/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/3d1a7f037b3d31446b83/test_coverage)](https://codeclimate.com/github/cortex-cms/cortex-starter/test_coverage)
 <img align="right" height="150"
      src="https://hiring-assets.careerbuilder.com/branding/cortex-logo.svg"
      alt="Cortex CMS Logo">
