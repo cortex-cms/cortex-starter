@@ -12,7 +12,7 @@ development:
       size: m3.medium
   postgresql:
     configuration:
-      version: 10.4
+      version: 10
     server:
       unique_name: postgres
       vendor: aws
@@ -46,7 +46,7 @@ staging:
       size: m3.medium
   postgresql:
     configuration:
-      version: 10.4
+      version: 10
     server:
       unique_name: postgres
       vendor: aws
@@ -80,7 +80,7 @@ production:
       size: m3.medium
   postgresql:
     configuration:
-      version: 10.4
+      version: 10
     server:
       unique_name: postgres
       vendor: aws
