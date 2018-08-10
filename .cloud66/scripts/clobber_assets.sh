@@ -1,7 +1,4 @@
 #!/bin/bash
-cd $STACK_BASE/releases/$(ls -1 -t $STACK_BASE/releases/ | head -n1)
+cd $STACK_PATH
 
-echo "Executing clobber_assets in:"
-pwd
-
-rm -rf public/assets/* app/assets/webpack/*
+bin/rails webpacker:clobber
