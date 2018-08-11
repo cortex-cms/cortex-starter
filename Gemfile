@@ -25,7 +25,7 @@ gem 'sass-rails', '~> 5.0'
 
 # Cortex
 gem 'cortex', '~> 0.1'
-gem 'cortex-plugins-core', '~> 3.1'
+gem 'cortex-plugins-core', '~> 3.2'
 
 # Jobs
 gem 'sidekiq', '~> 5.1.3'
