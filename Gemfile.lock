@@ -136,7 +136,7 @@ GEM
       transitions (~> 1.2)
       webpacker
     cortex-exceptions (0.0.4)
-    cortex-plugins-core (3.1.0)
+    cortex-plugins-core (3.2.0)
       aws-sdk-s3 (~> 1.17)
       cells (~> 4.1)
       cells-haml (~> 0.0)
@@ -571,7 +571,7 @@ DEPENDENCIES
   byebug
   capybara
   cortex (~> 0.1)
-  cortex-plugins-core (~> 3.1)
+  cortex-plugins-core (~> 3.2)
   database_cleaner
   dotenv-rails
   elasticsearch-extensions (~> 0.0.30)
