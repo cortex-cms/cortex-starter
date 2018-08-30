@@ -18,19 +18,9 @@ services:
     - redis
     - elasticsearch
     - webpacker
-    env_file: .env
-    environment:
-    - RAILS_ENV=development
-    - RACK_ENV=development
-    - RAILS_SERVE_STATIC_FILES=true
-    - REDIS_URL=redis://redis:6379
-    - CACHE_URL=redis://redis:6379/0/cache
-    - SESSION_STORE_URL=redis://redis:6379/0/cache
-    - ELASTICSEARCH_ADDRESS=elasticsearch:9200
-    - DATABASE_USERNAME=postgres
-    - DATABASE_HOST=postgres
-    - DATABASE_PORT=5432
-    - WEBPACKER_DEV_SERVER_HOST=webpacker
+    env_file:
+    - .env.docker-compose
+    - .env
     depends_on:
     - postgres
     - redis
@@ -49,18 +39,9 @@ services:
     - postgres
     - redis
     - elasticsearch
-    env_file: .env
-    environment:
-    - RAILS_ENV=development
-    - RACK_ENV=development
-    - RAILS_SERVE_STATIC_FILES=true
-    - REDIS_URL=redis://redis:6379
-    - CACHE_URL=redis://redis:6379/0/cache
-    - SESSION_STORE_URL=redis://redis:6379/0/cache
-    - ELASTICSEARCH_ADDRESS=elasticsearch:9200
-    - DATABASE_USERNAME=postgres
-    - DATABASE_HOST=postgres
-    - DATABASE_PORT=5432
+    env_file:
+    - .env.docker-compose
+    - .env
     depends_on:
     - postgres
     - redis
@@ -81,18 +62,9 @@ services:
     - postgres
     - redis
     - elasticsearch
-    env_file: .env
-    environment:
-    - RAILS_ENV=development
-    - RACK_ENV=development
-    - RAILS_SERVE_STATIC_FILES=true
-    - REDIS_URL=redis://redis:6379
-    - CACHE_URL=redis://redis:6379/0/cache
-    - SESSION_STORE_URL=redis://redis:6379/0/cache
-    - ELASTICSEARCH_ADDRESS=elasticsearch:9200
-    - DATABASE_USERNAME=postgres
-    - DATABASE_HOST=postgres
-    - DATABASE_PORT=5432
+    env_file:
+    - .env.docker-compose
+    - .env
     depends_on:
     - postgres
     - redis

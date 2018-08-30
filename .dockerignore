@@ -42,8 +42,6 @@ README.md
 #
 # Rails
 #
-.env
-.env.example
 *.rbc
 capybara-*.html
 .rspec
@@ -71,6 +69,9 @@ npm-debug.log*
 /public/packs-test
 node_modules
 /yarn-error.log
+
+## Environment
+.env*
 
 ## Environment normalisation
 .bundle

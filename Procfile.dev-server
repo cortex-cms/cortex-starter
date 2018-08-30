@@ -1,6 +1,6 @@
 # You can run these commands in separate shells instead of using foreman
 web: bin/rails server -p 3000
-worker: bundle exec sidekiq -e development --config ./config/sidekiq.yml
+worker: bundle exec sidekiq --config ./config/sidekiq.yml
 
 # Next line runs the webpack-dev-server
 # You can edit config/webpacker.yml to set HMR to true to see hot reloading.

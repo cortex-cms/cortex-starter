@@ -43,7 +43,9 @@ capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.html
-.env
+.env*
+!.env.example
+!.env.docker-compose.example
 /.cloud66/stack.json
 
 # rspec failure tracking
