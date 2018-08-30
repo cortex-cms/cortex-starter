@@ -396,6 +396,8 @@ GEM
       activesupport (>= 3.0.0)
     rack (2.0.5)
     rack-cors (1.0.2)
+    rack-mini-profiler (1.0.0)
+      rack (>= 1.2.0)
     rack-protection (2.0.3)
       rack
     rack-proxy (0.6.4)
@@ -596,6 +598,7 @@ DEPENDENCIES
   pry-remote
   pry-stack_explorer
   puma (~> 3.12.0)
+  rack-mini-profiler
   rails (~> 5.1.6)
   rails-erd
   react_on_rails (= 9.0.3)

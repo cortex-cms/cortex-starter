@@ -75,6 +75,7 @@ group :development do
   # Debug
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'rack-mini-profiler'
 
   # Misc
   gem 'listen', '>= 3.0.5', '< 3.2'
