@@ -1,6 +1,6 @@
 # You can run these commands in separate shells instead of using foreman
 web: bin/rails server -p 3000
-worker: bundle exec sidekiq -e development --config ./config/sidekiq.yml
+worker: bundle exec sidekiq --config ./config/sidekiq.yml
 
 # Next line runs a watch process with webpack to compile the changed files.
 # When making frequent changes to client side assets, you will prefer building webpack assets
